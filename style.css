@@ -25,17 +25,16 @@ body{
 }
 .container{
   max-width: 350px;
-  margin: 0 auto;
 }
 .wrapper{
   margin: 2rem 1rem;
-  padding: 20px;
+  padding: 1.25rem;
   background-color: var(--card-BG);
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.25);
 }
 .img-top{
-  border-radius: 12px;
+  border-radius: 0.75rem;
   overflow: hidden;
   position: relative;
 }
@@ -54,7 +53,7 @@ body{
 }
 .img-overlay img{
   position: absolute;
-  width: 50px;
+  width: 3.125rem;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
@@ -66,8 +65,8 @@ body{
   color: var(--white);
   text-decoration: none;
   font-weight: 600;
-  font-size: 21px;
-  padding: 20px 0;
+  font-size: 1.3125rem;
+  padding: 1.25rem 0;
   display: inline-block;
   cursor: pointer;
 }
@@ -81,7 +80,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 0;
+  padding: 1.5625rem 0;
 }
 .eth,.days{
   display: flex;
@@ -90,10 +89,10 @@ p{
 .eth p{
   color: var(--cyan);
   font-weight: 600;
-  padding-left: 7px;
+  padding-left: 0.4375rem;
 }
 .days p{
-  padding-left: 7px;
+  padding-left: 0.4375rem;
 }
 hr{
   border-color: var(--line);
@@ -101,18 +100,19 @@ hr{
 .author{
   display: flex;
   align-items: center;
-  padding-top: 5px;
+  padding-top: 0.3125rem;
 }
 .author img{
-  height: 37px;
-  width: 37px;
+  height: 2.3125rem;
+  width: 2.3125rem;
   border-radius: 50%;
-  border: 2px solid var(--white);
-  margin-right: 15px;
+  border: 0.125rem solid var(--white);
+  margin-right: 0.9375rem;
 }
 .author p a.name{
   color: var(--white);
-  font-size: 16px;
+  font-size: 1rem;
+  text-decoration: none;
 }
 .author p a.name:hover{
   color: var(--cyan);
