@@ -62,15 +62,16 @@ body{
 .img-top:hover .img-overlay{
   display: block;
 }
-.box-text a{
+.box-text h1{
   color: var(--white);
   text-decoration: none;
   font-weight: 600;
   font-size: 21px;
   padding: 20px 0;
   display: inline-block;
+  cursor: pointer;
 }
-.box-text a:hover{
+.box-text h1:hover{
   color: var(--cyan);
 }
 p{
